@@ -1,0 +1,5 @@
+error: this `#[init]` function must have signature `fn(init::Context) [-> init::LateResources]`
+ --> $DIR/init-pub.rs:6:12
+  |
+6 |     pub fn init(_: init::Context) {}
+  |            ^^^^

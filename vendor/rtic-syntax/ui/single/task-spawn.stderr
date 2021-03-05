@@ -1,0 +1,5 @@
+error: hardware tasks can NOT be spawned
+ --> $DIR/task-spawn.rs:8:21
+  |
+8 |     #[task(spawn = [foo])]
+  |                     ^^^

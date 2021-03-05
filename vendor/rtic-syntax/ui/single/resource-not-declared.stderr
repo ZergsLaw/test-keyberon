@@ -1,0 +1,5 @@
+error: this resource has NOT been declared
+ --> $DIR/resource-not-declared.rs:5:25
+  |
+5 |     #[task(resources = [A])]
+  |                         ^
